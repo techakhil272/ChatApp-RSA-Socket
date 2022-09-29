@@ -1,7 +1,7 @@
 import socket
 import socketrsa as sr
 
-HOST = '192.168.0.112'
+HOST = '172.20.82.17'
 PORT = 7896
 
 akhilPub,akhilPriv = sr.loadKeys()
