@@ -26,20 +26,3 @@ def jaiKey():
     return jaiPub
 
 #generateKeys()
-
-# publicKey, privateKey = loadKeys()
-
-# message = input('Write your message here:')
-# ciphertext = encrypt(message, publicKey)
-
-# signature = sign(message, privateKey)
-
-# text = decrypt(ciphertext, privateKey)
-
-# print(f'Cipher text: {ciphertext}')
-# print(f'Signature: {signature}')
-
-# if verify(text, signature, publicKey):
-#     print('Successfully verified signature')
-# else:
-#     print('The message signature could not be verified')
